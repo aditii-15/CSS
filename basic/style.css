@@ -1,0 +1,28 @@
+/* #ff3368; #ecfdff;  */
+
+h1{
+   color: #ff3368;
+}
+
+/* for class selector we use the dot (.) */
+.para {
+    color: green;
+}
+
+/* for id selector we us the # */
+#btn {
+    background-color: #ff3368;
+    color: #fff;
+}
+
+ /* for Pseudo class we use : and hover  */
+ /* hover changes the color of the text  */
+#btn:hover{
+    background-color: black;
+    color: white;
+}
+
+h1:hover{
+    color: blue;
+}
+
