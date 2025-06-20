@@ -1,0 +1,63 @@
+body {
+    background-color: hsl(0, 0%, 94%);
+}
+
+/* This is for Pixel
+ Greater the value of pixel the font will be bigger
+*/
+
+/* h1 {
+    font-size: 54px;
+    color: hotpink;
+}
+
+p {
+    font-size: 36px;
+}
+
+li {
+    font-size: 44px;
+} */
+
+/* 1px = 6.25%
+ 16px = 100%
+1 em = 16px 
+*/
+
+h1{
+    font-size: 3.375em;
+}
+
+p{
+    font-size: 2.25em;
+}
+
+.parent{
+    font-size: 10px;
+}
+/* we can change the font size in the em by the (.) operator and by selecting the
+class*/
+
+li{
+    font-size: 2.75em;
+}
+
+/* Now introducing the rem */
+
+html{
+    font-size: 62.5%;
+}
+
+/* means that 1 rem = 10px */
+
+h1{
+    font-size: 5.4rem;
+}
+
+p{
+    font-size: 3.6rem;
+}
+
+li{
+    font-size: 4.4rem;
+}
