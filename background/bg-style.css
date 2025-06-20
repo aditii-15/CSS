@@ -1,0 +1,43 @@
+/** ------------------------------------- -->
+/**  BACKGROUND PROPERTY IN CSS  
+/** ---------------------------------------- -->
+
+/*? background-color: Sets the background color of an element.
+Example: background-color: #FF5733; */
+
+/*? background-image: Specifies an image to be used as the background. */
+/* Example: background-image: url('image.jpg'); */
+
+/*? background-repeat: Determines how the background image repeats. */
+/* Values: repeat, repeat-x, repeat-y, no-repeat.
+Example: background-repeat: repeat-x; */
+
+/*? background-position: Sets the starting position of the background image. */
+/* Values: Coordinates like top left, center center, bottom right, percentages, or length values. */
+/* Example: background-position: center center; */
+
+/*? background-size: Defines the size of the background image. */
+/* Values: auto, cover, contain, percentages, or length values. */
+/* Example: background-size: cover; */
+
+/*? background-attachment: Specifies if the background image scrolls with the content.; */
+/* Values: scroll, fixed, local.
+Example: background-attachment: fixed; */
+
+/** ------------------------------------- -->
+/**  BACKGROUND PROPERTY IN CSS3  
+/** ---------------------------------------- -->
+
+/*? background-blend-mode: Applies blending modes to the background image and color. */
+/* Values: Various blending mode keywords like multiply, screen, overlay.
+Example: background-blend-mode: multiply; */
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 94%);
+    background-image: url("https://t3.ftcdn.net/jpg/02/86/51/80/360_F_286518064_B2RHTi5GNO19Tyl5eMdk7z3543oLi9Fj.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-position: top right; */
+}
