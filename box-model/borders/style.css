@@ -15,9 +15,9 @@ p{
 }
 
 .section-border{
-    width: 1000px;
+    /* width: 1000px; */
     color: #fff;
-    background-color: #5e9de9;
+    /* background-color: #5e9de9; */
 
     /* ? Border here */
     /* border: 15px solid #003180; */
@@ -34,13 +34,26 @@ p{
     border-bottom: 15px double black; */
     
     /* ?Now we can go more deeper in border */
-    border-top-width: 15px;
+    /* border-top-width: 15px;
     border-top-style: solid;
-    border-top-color: #003180;
+    border-top-color: #003180; */
 }
 
 div{
     width: 500px;
     height: 500px;
-    
+    background-color: #5e9de9;
+    /* border-radius: 100px 10px 250px 0; */
+    border-radius: 100% 0% 100% 0% / 99% 0% 100% 1% ;
+    background-image: linear-gradient(
+    to right top, 
+    #051937, 
+    #004d7a, 
+    #008793, 
+    #00bf72, 
+    #a8eb12
+    );
 }
+
+
+/* https://9elements.github.io/fancy-border-radius/ */
