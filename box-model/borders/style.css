@@ -1,0 +1,46 @@
+html{
+    font-family: "Urbanist", sans-serif;
+}
+
+#main heading {
+    font-size: 64px;
+    color: #1e1403;
+}
+
+p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+
+.section-border{
+    width: 1000px;
+    color: #fff;
+    background-color: #5e9de9;
+
+    /* ? Border here */
+    /* border: 15px solid #003180; */
+    
+    /* ? we can write each property individually */
+    /* border-width: 15px;
+    border-style: solid;
+    border-color: #003180; */
+    
+    /* ?can write it for each side individually */
+    /* border-top: 15px solid #003180;
+    border-right: 15px dotted red;
+    border-left: 15px ridge green;
+    border-bottom: 15px double black; */
+    
+    /* ?Now we can go more deeper in border */
+    border-top-width: 15px;
+    border-top-style: solid;
+    border-top-color: #003180;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    
+}
