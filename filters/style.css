@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Urbanist";
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 94%);
+    display: grid;
+    place-items: center;
+}
+
+img {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.6) 0px 0px 0px 1px;
+    /* Grayscale is used to change color picture in black and white */
+    /* filter: grayscale(); */
+
+    /* filter: brightness(80%); */
+    filter: contrast(100%);
+    /* filter: invert(); */ 
+}
