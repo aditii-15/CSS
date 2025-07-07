@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost";
+}
+
+body {
+    background-color: #080a0c;
+    color: azure;
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    max-width: 1320px;
+    padding: 64px 0;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+    gap: 64px;
+}
+
+.grid-two-column {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-content h1{
+    font-size: 48px;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    position: relative;
+}
+
+/* Before pseudo element */
+.hero-content h1::before {
+    /* content: "BEST"; */
+    content: "\f121";
+    font-family: "font awesome 6 free";
+    position: absolute;
+    top: -15px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: rgb(255, 204, 112);
+}
+
+/* After pseudo element */
+.hero-content h1::after {
+    content: "";
+    right: 0;
+    bottom: 3px;
+    position: absolute;
+    border: 2px solid #ae445a;
+    width: 55%;
+}
+
+
+.hero-content p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 20px 0 40px 0;
+}
+
+
+.hero-content p::first-letter {
+    font-size: 48px;
+    color: red;
+    font-weight: bold;
+}
+
+/* 
+.hero-content p::first-line {
+   text-decoration: underline;
+} */
+
+.hero-content p::selection {
+    background-color: rgb(255, 204, 112);
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+a {
+    background-color : transparent;
+    display: inline-block;
+    padding: 12px 32px;
+    text-decoration: none;
+    border-radius: 05px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid white;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+}
+
+.hero-content a:hover{
+    background-color: #fff;
+    color: black;
+}
