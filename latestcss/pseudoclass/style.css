@@ -70,5 +70,6 @@ nav ul li {
 }
 
 nav ul :not(li:first-child) {
-    padding-left: 50px;
+    padding-left: 50px; 
+    /* leave the first child and give padding to others */
 }
