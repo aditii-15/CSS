@@ -82,3 +82,8 @@ h1 {
     margin: 2rem 0 4rem 0;
   }
 }
+
+a:hover {
+  background-color: black;
+  color: blue;
+}
